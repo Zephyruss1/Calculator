@@ -1,4 +1,4 @@
 # Calculator
 Basic calculator with tkinter
 
-Hello thats calculator so basic. I have bad css sorry for that but u can develop open source code. :)
+Hello, a simple calculator. I have bad css sorry for that but also u can develop open source code. :)
