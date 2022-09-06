@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-root.title("Hesap Makinesi")
+root.title("Calculator")
 
 def Click(number):
         current = e.get()
@@ -18,7 +18,7 @@ def button_add():
         math = "addition"
         f_num = float(first_number)
         e.delete(0, END)
-
+# Math algoritms
 def total():
         second_number = e.get()
         e.delete(0, END)
@@ -62,6 +62,7 @@ def float_numbers():
         except ValueError:
                 print("Its not a value.")
 
+# Entry 
 e = Entry(root, width=40, borderwidth=10)
 e.grid(row=0, column=0, columnspan=3, padx=20, pady=5)
 
@@ -84,7 +85,7 @@ ButtonMinus = Button(root, text="-", padx=39, pady=20, command=button_strip)
 ButtonImpact = Button(root, text="x", padx=39, pady=20, command=impact)
 ButtonDivide = Button(root, text="/", padx=40, pady=20, command=divide)
 
-#BUTTONS GRID
+# BUTTONS GRID
 Button1.grid(row=3, column=0)
 Button2.grid(row=3, column=1)
 Button3.grid(row=3, column=2)
