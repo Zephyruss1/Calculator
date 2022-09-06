@@ -107,7 +107,7 @@ ButtonCollection.grid(row=2, column=3)
 ButtonImpact.grid(row=4, column=3)
 ButtonDivide.grid(row=4, column=2)
 
-
+# Bind keyboard
 root.bind('<q>',lambda event:Clear())   #Clearing
 root.bind('<w>',lambda event:total())   # Evequale
 root.bind('<y>',lambda event:button_strip()) #subtract
